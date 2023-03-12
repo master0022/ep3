@@ -1,8 +1,8 @@
 defmodule Automata do
 
-  def next_states(transitions,input) do
+  def next_states(transitions_row,input) do
     #Filter to get only transitions where the input is equal to the input received
-    possible_transitions = Enum.filter(transitions,fn x ->Enum.fetch(x,0)=={:ok,input} end)
+    possible_transitions = Enum.filter(transitions_row,fn x ->Enum.fetch(x,0)=={:ok,input} end)
     #For each transition, extract the next state
     next_transitions = Enum.map(possible_transitions,
     fn trans ->

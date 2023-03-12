@@ -82,7 +82,7 @@ defmodule AutomataTest do
 
   end
 
-  test "test automata 2" do
+  test "test automata 3" do
 
     # Mais tabelas de transicao para serem testadas.
 
@@ -120,7 +120,7 @@ defmodule AutomataTest do
     assert(result5==false)
   end
 
-  test "test automata 3" do
+  test "test automata 4" do
 
     # Mais tabelas de transicao para serem testadas.
 
@@ -156,7 +156,7 @@ defmodule AutomataTest do
     assert(result5==false)
   end
 
-  test "test automata 4" do
+  test "test automata 5" do
 
     # Mais tabelas de transicao para serem testadas.
 

@@ -1,2 +1,2 @@
 # ep3
- dos mesmos criadores de ep2
+ Explicações do algorítmo e dos casos de teste no Relatorio - EP3.
